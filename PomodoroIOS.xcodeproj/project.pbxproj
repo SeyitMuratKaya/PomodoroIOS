@@ -12,6 +12,7 @@
 		2F47CEB927C039AD008583E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F47CEB827C039AD008583E8 /* Assets.xcassets */; };
 		2F47CEBC27C039AD008583E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F47CEBB27C039AD008583E8 /* Preview Assets.xcassets */; };
 		2F47CEC327C039EE008583E8 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F47CEC227C039EE008583E8 /* ButtonView.swift */; };
+		2FC17A6B27D0FD220060B965 /* Ekran Resmi 2022-03-03 16.41.29.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FC17A6A27D0FD220060B965 /* Ekran Resmi 2022-03-03 16.41.29.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2F47CEB827C039AD008583E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F47CEBB27C039AD008583E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F47CEC227C039EE008583E8 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2FC17A6A27D0FD220060B965 /* Ekran Resmi 2022-03-03 16.41.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2022-03-03 16.41.29.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		2F47CEA827C039AB008583E8 = {
 			isa = PBXGroup;
 			children = (
+				2FC17A6A27D0FD220060B965 /* Ekran Resmi 2022-03-03 16.41.29.png */,
 				2F47CEB327C039AB008583E8 /* PomodoroIOS */,
 				2F47CEB227C039AB008583E8 /* Products */,
 			);
@@ -132,6 +135,7 @@
 			files = (
 				2F47CEBC27C039AD008583E8 /* Preview Assets.xcassets in Resources */,
 				2F47CEB927C039AD008583E8 /* Assets.xcassets in Resources */,
+				2FC17A6B27D0FD220060B965 /* Ekran Resmi 2022-03-03 16.41.29.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muratkaya.PomodoroIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +326,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.muratkaya.PomodoroIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
